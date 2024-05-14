@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(13, 13, 13);
+
+}
+
+#board {
+    margin: 20px auto;
+    border: 2px rgb(76, 69, 69) solid;
+    background: url("./background.jpg");
+    background-position: 2px, 10px;
+}
+
+.left {
+    background-color: none;
+    height: 600px;
+    width: 180px;
+    z-index: 6;
+    position: absolute;
+    right: 50%;
+
+}
+
+.right {
+    background-color: none;
+    height: 600px;
+    width: 180px;
+    z-index: 7;
+    position: absolute;
+    left: 50%;
+}
